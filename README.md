@@ -1,7 +1,7 @@
 # receitas-da-minha-avo
 As melhores receitas da minha vovozinha
 
-# padrão dos commits deste repositório:
+# padrão das mensagens de commits deste repositório:
 
 add: uma nova receita foi adicionada
 feat: uma nova funcionalidade foi implementada
