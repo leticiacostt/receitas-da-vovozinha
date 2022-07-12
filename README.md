@@ -8,4 +8,4 @@ feat: uma nova funcionalidade foi implementada
 fix: um erro foi corrigido
 break: uma mudança que impede a construção do projeto foi introduzida
 doc: documentação sobre o projeto foi inserida
-...
+refac: reescreve/refatora o código para melhor legibilidade ou organização
