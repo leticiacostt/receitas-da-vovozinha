@@ -7,7 +7,7 @@ Os códigos a seguir são apenas uma convenção que nos usaremos para facilitar
 
 Atenção para o formato:
 
-   <código> <dois pontos e espaço> <mensagem>
+    código - dois pontos e espaço - mensagem
 
 add: uma nova receita foi adicionada   
 feat: uma nova funcionalidade foi implementada  
