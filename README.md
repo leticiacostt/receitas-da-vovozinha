@@ -3,12 +3,18 @@ As melhores receitas da minha vovozinha
 
 # padrão das mensagens de commits deste repositório:
 
-add: uma nova receita foi adicionada
-feat: uma nova funcionalidade foi implementada
-fix: um erro foi corrigido
-break: uma mudança que impede a construção do projeto foi introduzida
-doc: documentação sobre o projeto foi inserida
-refac: reescreve/refatora o código para melhor legibilidade ou organização
+Os códigos a seguir são apenas uma convenção que nos usaremos para facilitar o a escrita de mensagens de commit.
+
+Atenção para o formato:
+
+   <código> <dois pontos e espaço> <mensagem>
+
+add: uma nova receita foi adicionada   
+feat: uma nova funcionalidade foi implementada  
+fix: um erro foi corrigido  
+break: uma mudança que impede a construção do projeto foi introduzida  
+doc: documentação sobre o projeto foi inserida  
+refac: reescreve/refatora o código para melhor legibilidade ou organização  
 
 # Resumo dos comandos git
 
