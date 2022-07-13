@@ -55,3 +55,18 @@ Braço atual
 ```bash
 git push
 ```
+
+ciclo de trabalho
+-criar um novo braço (git branch nome do braço)
+-fazer as alterações
+- salvar as alterações (ctrl+s)
+- adicionar uma mensagem sobre o que foi alterado (add: nome da alteração)
+-fazer o envio (commit)
+- na nuvem realizar o (pull request)
+
+Mesclar braços 
+- buscar o braço (git branch) 
+-fazer alterações no braço (git checkout)
+-escolher o braço para mesclar (git merge nome do braço)  
+deletar o braço se não for mais usar (branch -d nome do braço )
+ 
