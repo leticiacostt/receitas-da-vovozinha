@@ -1,0 +1,1 @@
+Esta pasta reuni o código de cada estudante. Possui fins didáticos e evita conflitos entre os arquivos de código das atividades.
