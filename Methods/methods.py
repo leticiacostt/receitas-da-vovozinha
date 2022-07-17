@@ -7,7 +7,7 @@ pasta = './receitas'
 #acessa os arquivos da pasta 
 for diretorio, subpastas, arquivos in os.walk(pasta):
     for arquivo in arquivos:
-        print("Arquivo da receita: ",os.path.join(diretorio, arquivo))
+        print("\033[33mArquivo da receita: ",os.path.join(diretorio, arquivo),"\033[m")
         #realiza a leitura do arquivo
         with open(f'{os.path.join(diretorio, arquivo)}', 'r') as r:
 
