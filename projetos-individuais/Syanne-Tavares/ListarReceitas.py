@@ -1,0 +1,20 @@
+from turtle import clear
+import yaml
+import os
+#mostra as receitas contidas na pasta receitas
+def ListarReceitas(pasta_receitas):
+    #acessa os arquivos da pasta 
+    for diretorio, subpastas, arquivos in os.walk(f'{pasta_receitas}'):
+        for arquivo in arquivos:
+            print("\033[33mArquivo da receita: ",os.path.join(diretorio, arquivo),"\033[m")
+            #realiza a leitura do arquivo
+            with open(f'{os.path.join(diretorio, arquivo)}', 'r') as r:
+
+                receita=yaml.safe_load(r)
+                print("*"*100)
+                #mostra as chaves e os valores contidos no dicionário da receita
+                for chave, valor in receita.items():       
+                    print(f'\033[34m{chave}\033[m : {valor} \n')
+                print("*"*100)
+
+ListarReceitas("./receitas")
