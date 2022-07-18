@@ -31,6 +31,23 @@ def print_all_as_string():
         print(dump_recipe(load_recipe(filename)))
         print('*'*100)
 
+def find_recipe(search_string):
+    def has_search_string(value):
+        return search_string.upper() in value.upper()
+
+    for filename in get_recipe_filenames():
+        recipe_dict = load_recipe(filename)
+        for _, value in recipe_dict.items():
+            if type(value) is list:
+                for i in value:
+                    if has_search_string(i):
+                        print('Found recipe!')
+                        break
+            else:
+                if has_search_string(value):
+                    print('Found recipe!')
+                    break
+
 if __name__ == '__main__':
     # print_all_as_dictionary()
     print_all_as_string()
