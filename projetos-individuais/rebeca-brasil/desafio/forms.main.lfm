@@ -1,0 +1,31 @@
+object Form1: TForm1
+  Left = 712
+  Height = 441
+  Top = 236
+  Width = 319
+  Caption = 'Form1'
+  ClientHeight = 0
+  ClientWidth = 0
+  DesignTimePPI = 120
+  LCLVersion = '2.2.2.0'
+  object listar: TButton
+    Left = 30
+    Height = 69
+    Top = 8
+    Width = 254
+    Caption = 'Listar'
+    OnClick = listarClick
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 33
+    Height = 333
+    Top = 91
+    Width = 255
+    Lines.Strings = (
+      ''
+    )
+    TabOrder = 1
+    Visible = False
+  end
+end
