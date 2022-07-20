@@ -1,0 +1,11 @@
+titulo= resumo e anotaçoes 
+lazarus- associado a linguagem pascal, teoricamente mais simples, 
+visual studio- associado ao git hub 
+git bash- associado ao git hub desktop e git hub, atualiza cria braços e mescla  
+octave- irmao do matlab, capaz de realizar analise grafica do sensor 
+git hub- organizador virtual e fisico de pastas arquivos e afins
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+identação= são espaços 
+procesamento é diferente de memoria 
+cada linguagem tem sua propria sintase
