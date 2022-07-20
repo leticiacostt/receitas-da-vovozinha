@@ -12,9 +12,8 @@ def get_filenames(folder):
 def get_recipe_filenames():
     return get_filenames(recipes_folder)
 
-def professor_signature_filename():
-    get_filenames(assets_folder)
-    return os.path.join(assets_folder,'Carlos Rafael Fernandes Picanço.jpg')
+def get_asset_filename(asset):
+    return os.path.join(assets_folder, asset)
 
 if __name__ == '__main__':
     print(get_recipe_filenames())

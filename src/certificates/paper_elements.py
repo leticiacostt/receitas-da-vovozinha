@@ -3,12 +3,12 @@ class A4Object(object):
     height = 210.0
     centerx = width / 2
     centery = height / 2
+    margin_left = 20
+    margin_top = 20
+    margin_right = width - margin_left
+    margin_bottom = height - margin_top
 
 A4 = A4Object()
-margin_left = 20
-margin_top = 20
-margin_right = A4.width - margin_left
-margin_bottom = A4.height - margin_top
 
 class Rectangule(object):
     left = A4.centerx
