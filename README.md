@@ -141,3 +141,9 @@ git push origin minhas-mudancas
 - fazer alterações no braço (git checkout)
 - escolher o braço para mesclar (git merge nome do braço)  
 - deletar o braço se não for mais usar (branch -d nome do braço )
+
+# .gitignore
+
+Video: https://www.youtube.com/watch?v=UR9X2VBECE4&ab_channel=WillianJusten
+
+- Um arquivo `.gitignore` contém uma lista de arquivos. Ele pode ser criado em qualquer diretório e diz para o `git` que os arquivos listados devem ser ignorados. Ou seja, ele e suas modificações não serão rastreadas. Isso é útil porque ao do processo de desenvolvimento muitos arquivos temporários, reduldantes ou irrelevantes são criados e devem ser ignorados. Um exemplo concreto é o caso de arquivos executáveis. Eles são grandes e possuem um formato binário, em vez de texto puro como nos arquivos do código fonte, sendo, portanto, incompatíveis com a lógica de funcionamento do `git`.
