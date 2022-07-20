@@ -13,7 +13,7 @@ Iniciar programa
 (futuramente se for possível reproduzir o vídeo no próprio pragrama, por causa do tempo utilizar o que já temos - VLC)
 Aparecer o vídeo, mas sem iniciar.
 
-mostrar mensagem de que determinada tecla foi assionada durante a execução do vídeo no canto superior esquerdo 
+mostrar mensagem de que determinada tecla foi acionada durante a execução do vídeo no canto superior esquerdo 
 durante (3 s)
 
 # Teclas para 
