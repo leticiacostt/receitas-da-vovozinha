@@ -98,7 +98,6 @@ Os passos seguintes são necessários caso sua cópia remota não esteja sincron
 
 ```bash
 cd /Documents/GitHub/receitas-da-vovozinha
-git pull upstream main
 ```
 
 **Nota**: o local da pasta do repositório no seu computador pode ser diferente, você pode conferir o local da pasta usando o GitHub Desktop: aperte o botão direito do mouse em cima do nome do repositório e em seguida escolha "Show in Explorer".
