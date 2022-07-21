@@ -98,7 +98,6 @@ Os passos seguintes são necessários caso sua cópia remota não esteja sincron
 
 ```bash
 cd /Documents/GitHub/receitas-da-vovozinha
-git pull upstream main
 ```
 
 **Nota**: o local da pasta do repositório no seu computador pode ser diferente, você pode conferir o local da pasta usando o GitHub Desktop: aperte o botão direito do mouse em cima do nome do repositório e em seguida escolha "Show in Explorer".
@@ -124,7 +123,7 @@ git branch minhas-mudancas
 git push origin minhas-mudancas
 ```
 
-**Passo 2**: Acesse sua página do repositório no GitHub na Web e, escolha a aba "branchs" e aperte em "Create Pull Request"
+**Passo 2**: Acesse sua página (o seu fork) do repositório no GitHub na Web. Quando o seu braço é recém atualizado ou criado, o GitHub mostrará uma notificação na página inicial do seu fork perguntando se você deseja fazer um "Pull Request", para fazê-lo aperte no botão verde "Create Pull Request".
 
 **Passo 3**: Aguarde o professor aceitar as mudanças e incorporá-las no projeto original.
   
@@ -141,3 +140,9 @@ git push origin minhas-mudancas
 - fazer alterações no braço (git checkout)
 - escolher o braço para mesclar (git merge nome do braço)  
 - deletar o braço se não for mais usar (branch -d nome do braço )
+
+# .gitignore
+
+Video: https://www.youtube.com/watch?v=UR9X2VBECE4&ab_channel=WillianJusten
+
+- Um arquivo `.gitignore` contém uma lista de arquivos. Ele pode ser criado em qualquer diretório e diz para o `git` que os arquivos listados devem ser ignorados. Ou seja, os arquivos listados e suas modificações não serão rastreadas. Isso é útil porque ao longo do processo de desenvolvimento muitos arquivos temporários, reduldantes ou irrelevantes são criados e devem ser ignorados. Um exemplo concreto é o caso de arquivos executáveis. Eles são grandes e possuem um formato binário, em vez de texto puro como nos arquivos do código fonte, sendo, portanto, incompatíveis com a lógica de funcionamento do `git`. Outro exemplo são os arquivos temporários de backup e de cache criados automaticamente pelas ferramentas de desenvolvimento. 

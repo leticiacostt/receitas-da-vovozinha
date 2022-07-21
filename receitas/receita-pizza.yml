@@ -1,10 +1,7 @@
-receita: pizza
-ingredientes: [2 xícaras de chá de farinha de trigo,
-3/4 de xícara de chá de leite,
-2 colheres de sopa cheias de margarina derretida,
-1 pitada de sal,
-1 colher de sobremesa de fermento em pó]
-preparo: Em uma vasilha misture a farinha de trigo, o sal e o fermento em pó.
-Em seguida, acrescente a margarina derretida e o leite.
-Amasse levemente, pois fica um pouco mole.
-Cubra com um pano e deixe descansar por 15 minutos.
+titulo: pizza
+ingredientes: ["2 xícaras de chá de farinha de trigo",
+"3/4 de xícara de chá de leite",
+"2 colheres de sopa cheias de margarina derretida",
+"1 pitada de sal",
+"1 colher de sobremesa de fermento em pó"]
+preparo: Em uma vasilha misture a farinha de trigo, o sal e o fermento em pó. Em seguida, acrescente a margarina derretida e o leite.Amasse levemente, pois fica um pouco mole. Cubra com um pano e deixe descansar por 15 minutos.
